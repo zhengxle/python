@@ -1,0 +1,901 @@
+04/05/14 17:30:14 sendreport.py(229): INFO  send report from input data file: /home/xiaoliang.zxl/loki_profile/output/20140404/part-00000
+04/05/14 17:30:14 sendreport.py(108): INFO  show report as follow
+04/05/14 17:30:14 sendreport.py(111): INFO  Loki运行状态报告-2014-04-04
+04/05/14 17:30:14 sendreport.py(111): INFO  ================================
+04/05/14 17:30:14 sendreport.py(111): INFO  Title: 概述
+04/05/14 17:30:14 sendreport.py(111): INFO  -------------
+04/05/14 17:30:14 sendreport.py(111): INFO  Description: 
+04/05/14 17:30:14 sendreport.py(111): INFO  目标                数量      
+04/05/14 17:30:14 sendreport.py(111): INFO  有效pv              19,645,363  
+04/05/14 17:30:14 sendreport.py(111): INFO  平均qps(24小时)   227.38      
+04/05/14 17:30:14 sendreport.py(111): INFO  平均qps(5w秒)      392.91      
+04/05/14 17:30:14 sendreport.py(111): INFO  平均rt              0.05 ms     
+04/05/14 17:30:14 sendreport.py(111): INFO  ================================
+04/05/14 17:30:14 sendreport.py(111): INFO  Title: 运行时间
+04/05/14 17:30:14 sendreport.py(111): INFO  -------------------
+04/05/14 17:30:14 sendreport.py(111): INFO  Description: 系统平均RT性能数据分布
+04/05/14 17:30:14 sendreport.py(111): INFO  目标   数量(ms)   比例
+04/05/14 17:30:14 sendreport.py(111): INFO  match    0.05         93.78%
+04/05/14 17:30:14 sendreport.py(111): INFO  rank     0.0          6.22%
+04/05/14 17:30:14 sendreport.py(111): INFO  other    -0.0         -0.0%
+04/05/14 17:30:14 sendreport.py(111): INFO  --------------------------
+04/05/14 17:30:14 sendreport.py(111): INFO  total    0.05         100%
+04/05/14 17:30:14 sendreport.py(111): INFO  ================================
+04/05/14 17:30:14 sendreport.py(111): INFO  Title: Match时间
+04/05/14 17:30:14 sendreport.py(111): INFO  ------------------
+04/05/14 17:30:14 sendreport.py(111): INFO  Description: Matching过程时间消耗明细
+04/05/14 17:30:14 sendreport.py(111): INFO  目标     数量(ms)   比例
+04/05/14 17:30:14 sendreport.py(111): INFO  match_rt   0.05         100%
+04/05/14 17:30:14 sendreport.py(111): INFO  ----------------------------
+04/05/14 17:30:14 sendreport.py(111): INFO  total      0.05         100%
+04/05/14 17:30:14 sendreport.py(111): INFO  ================================
+04/05/14 17:30:14 sendreport.py(111): INFO  Title: 峰值QPS
+04/05/14 17:30:14 sendreport.py(111): INFO  ----------------
+04/05/14 17:30:14 sendreport.py(111): INFO  Description: 按时、分、秒关注峰值QPS，注：小时的峰值按照3600秒求平均，不考虑中途停止服务情况
+04/05/14 17:30:14 sendreport.py(111): INFO  目标                          数量                       
+04/05/14 17:30:14 sendreport.py(111): INFO  小时峰值发生时间, QPS   2014-04-04 20时, 442.31     
+04/05/14 17:30:14 sendreport.py(111): INFO  分钟峰值发生时间, QPS   2014-04-04 21:02分, 470.20  
+04/05/14 17:30:14 sendreport.py(111): INFO  秒级峰值发生时间, QPS   2014-04-04 10:45:13, 968.00  
+04/05/14 17:30:14 sendreport.py(111): INFO  ================================
+04/05/14 17:30:14 sendreport.py(111): INFO  Title: 备忘录
+04/05/14 17:30:14 sendreport.py(111): INFO  ----------------
+04/05/14 17:30:14 sendreport.py(111): INFO  Description: 关于该报告的说明
+04/05/14 17:30:14 sendreport.py(111): INFO  选项         说明                                                                                                                                 
+04/05/14 17:30:14 sendreport.py(111): INFO  联系人      萧亮(xiaoliang.zxl@taobao.com)                                                                                                       
+04/05/14 17:30:14 sendreport.py(111): INFO  数据来源   Loki Profile日志，收集到云梯后，通过Hadoop计算得出;云梯路径: /group/tb-taoke-engine/logdata/aitaobao-profile/loki  
+04/05/14 17:30:14 sendreport.py(111): INFO  其他         有任何疑问可以与上述联系人联系，请勿直接回复本邮件                                                            
+04/05/14 17:30:14 sendreport.py(111): INFO  ================================
+04/05/14 17:30:14 sendreport.py(125): INFO  send mail to taobao-ad-tech-taoke-engine@list.alibaba-inc.com
+04/05/14 17:30:14 sendreport.py(235): INFO  done
+04/05/14 17:34:48 sendreport.py(229): INFO  send report from input data file: /home/xiaoliang.zxl/loki_profile/output/20140404/part-00000
+04/05/14 17:34:48 sendreport.py(108): INFO  show report as follow
+04/05/14 17:34:48 sendreport.py(111): INFO  Loki运行状态报告-2014-04-04
+04/05/14 17:34:48 sendreport.py(111): INFO  ================================
+04/05/14 17:34:48 sendreport.py(111): INFO  Title: 概述
+04/05/14 17:34:48 sendreport.py(111): INFO  -------------
+04/05/14 17:34:48 sendreport.py(111): INFO  Description: 
+04/05/14 17:34:48 sendreport.py(111): INFO  目标                数量      
+04/05/14 17:34:48 sendreport.py(111): INFO  有效pv              19,645,363  
+04/05/14 17:34:48 sendreport.py(111): INFO  平均qps(24小时)   227.38      
+04/05/14 17:34:48 sendreport.py(111): INFO  平均qps(5w秒)      392.91      
+04/05/14 17:34:48 sendreport.py(111): INFO  平均rt              0.05 ms     
+04/05/14 17:34:48 sendreport.py(111): INFO  ================================
+04/05/14 17:34:48 sendreport.py(111): INFO  Title: 运行时间
+04/05/14 17:34:48 sendreport.py(111): INFO  -------------------
+04/05/14 17:34:48 sendreport.py(111): INFO  Description: 系统平均RT性能数据分布
+04/05/14 17:34:48 sendreport.py(111): INFO  目标   数量(ms)   比例
+04/05/14 17:34:48 sendreport.py(111): INFO  match    0.05         93.78%
+04/05/14 17:34:48 sendreport.py(111): INFO  rank     0.0          6.22%
+04/05/14 17:34:48 sendreport.py(111): INFO  other    -0.0         -0.0%
+04/05/14 17:34:48 sendreport.py(111): INFO  --------------------------
+04/05/14 17:34:48 sendreport.py(111): INFO  total    0.05         100%
+04/05/14 17:34:48 sendreport.py(111): INFO  ================================
+04/05/14 17:34:48 sendreport.py(111): INFO  Title: Match时间
+04/05/14 17:34:48 sendreport.py(111): INFO  ------------------
+04/05/14 17:34:48 sendreport.py(111): INFO  Description: Matching过程时间消耗明细
+04/05/14 17:34:48 sendreport.py(111): INFO  目标     数量(ms)   比例
+04/05/14 17:34:48 sendreport.py(111): INFO  match_rt   0.05         100%
+04/05/14 17:34:48 sendreport.py(111): INFO  ----------------------------
+04/05/14 17:34:48 sendreport.py(111): INFO  total      0.05         100%
+04/05/14 17:34:48 sendreport.py(111): INFO  ================================
+04/05/14 17:34:48 sendreport.py(111): INFO  Title: 峰值QPS
+04/05/14 17:34:48 sendreport.py(111): INFO  ----------------
+04/05/14 17:34:48 sendreport.py(111): INFO  Description: 按时、分、秒关注峰值QPS，注：小时的峰值按照3600秒求平均，不考虑中途停止服务情况
+04/05/14 17:34:48 sendreport.py(111): INFO  目标                          数量                       
+04/05/14 17:34:48 sendreport.py(111): INFO  小时峰值发生时间, QPS   2014-04-04 20时, 442.31     
+04/05/14 17:34:48 sendreport.py(111): INFO  分钟峰值发生时间, QPS   2014-04-04 21:02分, 470.20  
+04/05/14 17:34:48 sendreport.py(111): INFO  秒级峰值发生时间, QPS   2014-04-04 10:45:13, 968.00  
+04/05/14 17:34:48 sendreport.py(111): INFO  ================================
+04/05/14 17:34:48 sendreport.py(111): INFO  Title: 备忘录
+04/05/14 17:34:48 sendreport.py(111): INFO  ----------------
+04/05/14 17:34:48 sendreport.py(111): INFO  Description: 关于该报告的说明
+04/05/14 17:34:48 sendreport.py(111): INFO  选项         说明                                                                                                                                 
+04/05/14 17:34:48 sendreport.py(111): INFO  联系人      萧亮(xiaoliang.zxl@taobao.com)                                                                                                       
+04/05/14 17:34:48 sendreport.py(111): INFO  数据来源   Loki Profile日志，收集到云梯后，通过Hadoop计算得出;云梯路径: /group/tb-taoke-engine/logdata/aitaobao-profile/loki  
+04/05/14 17:34:48 sendreport.py(111): INFO  其他         有任何疑问可以与上述联系人联系，请勿直接回复本邮件                                                            
+04/05/14 17:34:48 sendreport.py(111): INFO  ================================
+04/05/14 17:34:48 sendreport.py(125): INFO  send mail to xiaoliang.zxl@taobao.com
+04/05/14 17:34:48 sendreport.py(235): INFO  done
+04/05/14 17:57:29 sendreport.py(229): INFO  send report from input data file: /home/xiaoliang.zxl/loki_profile/output/20140404/part-00000
+04/05/14 17:57:29 sendreport.py(108): INFO  show report as follow
+04/05/14 17:57:29 sendreport.py(111): INFO  Loki运行状态报告-2014-04-04
+04/05/14 17:57:29 sendreport.py(111): INFO  ================================
+04/05/14 17:57:29 sendreport.py(111): INFO  Title: 概述
+04/05/14 17:57:29 sendreport.py(111): INFO  -------------
+04/05/14 17:57:29 sendreport.py(111): INFO  Description: 
+04/05/14 17:57:29 sendreport.py(111): INFO  目标                数量      
+04/05/14 17:57:29 sendreport.py(111): INFO  有效pv              19,645,363  
+04/05/14 17:57:29 sendreport.py(111): INFO  平均qps(24小时)   227.38      
+04/05/14 17:57:29 sendreport.py(111): INFO  平均qps(5w秒)      392.91      
+04/05/14 17:57:29 sendreport.py(111): INFO  平均rt              0.67 ms     
+04/05/14 17:57:29 sendreport.py(111): INFO  ================================
+04/05/14 17:57:29 sendreport.py(111): INFO  Title: 运行时间
+04/05/14 17:57:29 sendreport.py(111): INFO  -------------------
+04/05/14 17:57:29 sendreport.py(111): INFO  Description: 系统平均RT性能数据分布
+04/05/14 17:57:29 sendreport.py(111): INFO  目标   数量(ms)   比例
+04/05/14 17:57:29 sendreport.py(111): INFO  match    0.53         78.24%
+04/05/14 17:57:29 sendreport.py(111): INFO  rank     0.15         21.76%
+04/05/14 17:57:29 sendreport.py(111): INFO  other    -0.0         -0.0%
+04/05/14 17:57:29 sendreport.py(111): INFO  --------------------------
+04/05/14 17:57:29 sendreport.py(111): INFO  total    0.67         100%
+04/05/14 17:57:29 sendreport.py(111): INFO  ================================
+04/05/14 17:57:29 sendreport.py(111): INFO  Title: Match时间
+04/05/14 17:57:29 sendreport.py(111): INFO  ------------------
+04/05/14 17:57:29 sendreport.py(111): INFO  Description: Matching过程时间消耗明细
+04/05/14 17:57:29 sendreport.py(111): INFO  目标     数量(ms)   比例
+04/05/14 17:57:29 sendreport.py(111): INFO  match_rt   0.53         100%
+04/05/14 17:57:29 sendreport.py(111): INFO  ----------------------------
+04/05/14 17:57:29 sendreport.py(111): INFO  total      0.53         100%
+04/05/14 17:57:29 sendreport.py(111): INFO  ================================
+04/05/14 17:57:29 sendreport.py(111): INFO  Title: 峰值QPS
+04/05/14 17:57:29 sendreport.py(111): INFO  ----------------
+04/05/14 17:57:29 sendreport.py(111): INFO  Description: 按时、分、秒关注峰值QPS，注：小时的峰值按照3600秒求平均，不考虑中途停止服务情况
+04/05/14 17:57:29 sendreport.py(111): INFO  目标                          数量                       
+04/05/14 17:57:29 sendreport.py(111): INFO  小时峰值发生时间, QPS   2014-04-04 20时, 442.31     
+04/05/14 17:57:29 sendreport.py(111): INFO  分钟峰值发生时间, QPS   2014-04-04 21:02分, 470.20  
+04/05/14 17:57:29 sendreport.py(111): INFO  秒级峰值发生时间, QPS   2014-04-04 10:45:13, 968.00  
+04/05/14 17:57:29 sendreport.py(111): INFO  ================================
+04/05/14 17:57:29 sendreport.py(111): INFO  Title: 备忘录
+04/05/14 17:57:29 sendreport.py(111): INFO  ----------------
+04/05/14 17:57:29 sendreport.py(111): INFO  Description: 关于该报告的说明
+04/05/14 17:57:29 sendreport.py(111): INFO  选项         说明                                                                                                                                 
+04/05/14 17:57:29 sendreport.py(111): INFO  联系人      萧亮(xiaoliang.zxl@taobao.com)                                                                                                       
+04/05/14 17:57:29 sendreport.py(111): INFO  数据来源   Loki Profile日志，收集到云梯后，通过Hadoop计算得出;云梯路径: /group/tb-taoke-engine/logdata/aitaobao-profile/loki  
+04/05/14 17:57:29 sendreport.py(111): INFO  其他         有任何疑问可以与上述联系人联系，请勿直接回复本邮件                                                            
+04/05/14 17:57:29 sendreport.py(111): INFO  ================================
+04/05/14 17:57:29 sendreport.py(125): INFO  send mail to xiaoliang.zxl@taobao.com
+04/05/14 17:57:29 sendreport.py(235): INFO  done
+04/05/14 18:12:32 sendreport.py(229): INFO  send report from input data file: /home/xiaoliang.zxl/loki_profile/output/20140404/part-00000
+04/05/14 18:12:32 sendreport.py(108): INFO  show report as follow
+04/05/14 18:12:32 sendreport.py(111): INFO  Loki运行状态报告-2014-04-04
+04/05/14 18:12:32 sendreport.py(111): INFO  ================================
+04/05/14 18:12:32 sendreport.py(111): INFO  Title: 概述
+04/05/14 18:12:32 sendreport.py(111): INFO  -------------
+04/05/14 18:12:32 sendreport.py(111): INFO  Description: 
+04/05/14 18:12:32 sendreport.py(111): INFO  目标                数量      
+04/05/14 18:12:32 sendreport.py(111): INFO  有效pv              19,645,363  
+04/05/14 18:12:32 sendreport.py(111): INFO  平均qps(24小时)   227.38      
+04/05/14 18:12:32 sendreport.py(111): INFO  平均qps(5w秒)      392.91      
+04/05/14 18:12:32 sendreport.py(111): INFO  平均rt              0.67 ms     
+04/05/14 18:12:32 sendreport.py(111): INFO  ================================
+04/05/14 18:12:32 sendreport.py(111): INFO  Title: 运行时间
+04/05/14 18:12:32 sendreport.py(111): INFO  -------------------
+04/05/14 18:12:32 sendreport.py(111): INFO  Description: 系统平均RT性能数据分布
+04/05/14 18:12:32 sendreport.py(111): INFO  目标   数量(ms)   比例
+04/05/14 18:12:32 sendreport.py(111): INFO  match    0.53         78.24%
+04/05/14 18:12:32 sendreport.py(111): INFO  rank     0.15         21.76%
+04/05/14 18:12:32 sendreport.py(111): INFO  other    -0.0         -0.0%
+04/05/14 18:12:32 sendreport.py(111): INFO  --------------------------
+04/05/14 18:12:32 sendreport.py(111): INFO  total    0.67         100%
+04/05/14 18:12:32 sendreport.py(111): INFO  ================================
+04/05/14 18:12:32 sendreport.py(111): INFO  Title: Match时间
+04/05/14 18:12:32 sendreport.py(111): INFO  ------------------
+04/05/14 18:12:32 sendreport.py(111): INFO  Description: Matching过程时间消耗明细
+04/05/14 18:12:32 sendreport.py(111): INFO  目标     数量(ms)   比例
+04/05/14 18:12:32 sendreport.py(111): INFO  match_rt   0.53         100%
+04/05/14 18:12:32 sendreport.py(111): INFO  ----------------------------
+04/05/14 18:12:32 sendreport.py(111): INFO  total      0.53         100%
+04/05/14 18:12:32 sendreport.py(111): INFO  ================================
+04/05/14 18:12:32 sendreport.py(111): INFO  Title: 峰值QPS
+04/05/14 18:12:32 sendreport.py(111): INFO  ----------------
+04/05/14 18:12:32 sendreport.py(111): INFO  Description: 按时、分、秒关注峰值QPS，注：小时的峰值按照3600秒求平均，不考虑中途停止服务情况
+04/05/14 18:12:32 sendreport.py(111): INFO  目标                          数量                       
+04/05/14 18:12:32 sendreport.py(111): INFO  小时峰值发生时间, QPS   2014-04-04 20时, 442.31     
+04/05/14 18:12:32 sendreport.py(111): INFO  分钟峰值发生时间, QPS   2014-04-04 21:02分, 470.20  
+04/05/14 18:12:32 sendreport.py(111): INFO  秒级峰值发生时间, QPS   2014-04-04 10:45:13, 968.00  
+04/05/14 18:12:32 sendreport.py(111): INFO  ================================
+04/05/14 18:12:32 sendreport.py(111): INFO  Title: 备忘录
+04/05/14 18:12:32 sendreport.py(111): INFO  ----------------
+04/05/14 18:12:32 sendreport.py(111): INFO  Description: 关于该报告的说明
+04/05/14 18:12:32 sendreport.py(111): INFO  选项         说明                                                                                                                                 
+04/05/14 18:12:32 sendreport.py(111): INFO  联系人      萧亮(xiaoliang.zxl@taobao.com)                                                                                                       
+04/05/14 18:12:32 sendreport.py(111): INFO  数据来源   Loki Profile日志，收集到云梯后，通过Hadoop计算得出;云梯路径: /group/tb-taoke-engine/logdata/aitaobao-profile/loki  
+04/05/14 18:12:32 sendreport.py(111): INFO  其他         有任何疑问可以与上述联系人联系，请勿直接回复本邮件                                                            
+04/05/14 18:12:32 sendreport.py(111): INFO  ================================
+04/05/14 18:12:32 sendreport.py(125): INFO  send mail to xiaoliang.zxl@taobao.com
+04/05/14 18:12:32 sendreport.py(235): INFO  done
+04/05/14 18:17:21 sendreport.py(229): INFO  send report from input data file: /home/xiaoliang.zxl/loki_profile/output/20140404/part-00000
+04/05/14 18:17:21 sendreport.py(108): INFO  show report as follow
+04/05/14 18:17:21 sendreport.py(111): INFO  Loki运行状态报告-2014-04-04
+04/05/14 18:17:21 sendreport.py(111): INFO  ================================
+04/05/14 18:17:21 sendreport.py(111): INFO  Title: 概述
+04/05/14 18:17:21 sendreport.py(111): INFO  -------------
+04/05/14 18:17:21 sendreport.py(111): INFO  Description: 
+04/05/14 18:17:21 sendreport.py(111): INFO  目标                数量      
+04/05/14 18:17:21 sendreport.py(111): INFO  有效pv              19,645,363  
+04/05/14 18:17:21 sendreport.py(111): INFO  平均qps(24小时)   227.38      
+04/05/14 18:17:21 sendreport.py(111): INFO  平均qps(5w秒)      392.91      
+04/05/14 18:17:21 sendreport.py(111): INFO  平均rt              0.67 ms     
+04/05/14 18:17:21 sendreport.py(111): INFO  ================================
+04/05/14 18:17:21 sendreport.py(111): INFO  Title: 运行时间
+04/05/14 18:17:21 sendreport.py(111): INFO  -------------------
+04/05/14 18:17:21 sendreport.py(111): INFO  Description: 系统平均RT性能数据分布
+04/05/14 18:17:21 sendreport.py(111): INFO  目标   数量(ms)   比例
+04/05/14 18:17:21 sendreport.py(111): INFO  match    0.53         78.24%
+04/05/14 18:17:21 sendreport.py(111): INFO  rank     0.15         21.76%
+04/05/14 18:17:21 sendreport.py(111): INFO  other    -0.0         -0.0%
+04/05/14 18:17:21 sendreport.py(111): INFO  --------------------------
+04/05/14 18:17:21 sendreport.py(111): INFO  total    0.67         100%
+04/05/14 18:17:21 sendreport.py(111): INFO  ================================
+04/05/14 18:17:21 sendreport.py(111): INFO  Title: Match时间
+04/05/14 18:17:21 sendreport.py(111): INFO  ------------------
+04/05/14 18:17:21 sendreport.py(111): INFO  Description: Matching过程时间消耗明细
+04/05/14 18:17:21 sendreport.py(111): INFO  目标     数量(ms)   比例
+04/05/14 18:17:21 sendreport.py(111): INFO  match_rt   0.53         100%
+04/05/14 18:17:21 sendreport.py(111): INFO  ----------------------------
+04/05/14 18:17:21 sendreport.py(111): INFO  total      0.53         100%
+04/05/14 18:17:21 sendreport.py(111): INFO  ================================
+04/05/14 18:17:21 sendreport.py(111): INFO  Title: 峰值QPS
+04/05/14 18:17:21 sendreport.py(111): INFO  ----------------
+04/05/14 18:17:21 sendreport.py(111): INFO  Description: 按时、分、秒关注峰值QPS，注：小时的峰值按照3600秒求平均，不考虑中途停止服务情况
+04/05/14 18:17:21 sendreport.py(111): INFO  目标                          数量                       
+04/05/14 18:17:21 sendreport.py(111): INFO  小时峰值发生时间, QPS   2014-04-04 20时, 442.31     
+04/05/14 18:17:21 sendreport.py(111): INFO  分钟峰值发生时间, QPS   2014-04-04 21:02分, 470.20  
+04/05/14 18:17:21 sendreport.py(111): INFO  秒级峰值发生时间, QPS   2014-04-04 10:45:13, 968.00  
+04/05/14 18:17:21 sendreport.py(111): INFO  ================================
+04/05/14 18:17:21 sendreport.py(111): INFO  Title: 备忘录
+04/05/14 18:17:21 sendreport.py(111): INFO  ----------------
+04/05/14 18:17:21 sendreport.py(111): INFO  Description: 关于该报告的说明
+04/05/14 18:17:21 sendreport.py(111): INFO  选项         说明                                                                                                                                 
+04/05/14 18:17:21 sendreport.py(111): INFO  联系人      萧亮(xiaoliang.zxl@taobao.com)                                                                                                       
+04/05/14 18:17:21 sendreport.py(111): INFO  数据来源   Loki Profile日志，收集到云梯后，通过Hadoop计算得出;云梯路径: /group/tb-taoke-engine/logdata/aitaobao-profile/loki  
+04/05/14 18:17:21 sendreport.py(111): INFO  其他         有任何疑问可以与上述联系人联系，请勿直接回复本邮件                                                            
+04/05/14 18:17:21 sendreport.py(111): INFO  ================================
+04/05/14 18:17:21 sendreport.py(125): INFO  send mail to xiaoliang.zxl@taobao.com
+04/05/14 18:17:21 sendreport.py(235): INFO  done
+04/05/14 21:20:02 sendreport.py(229): INFO  send report from input data file: /home/xiaoliang.zxl/loki_profile/output/20140404/part-00000
+04/05/14 21:20:02 sendreport.py(108): INFO  show report as follow
+04/05/14 21:20:02 sendreport.py(111): INFO  Loki运行状态报告-2014-04-04
+04/05/14 21:20:02 sendreport.py(111): INFO  ================================
+04/05/14 21:20:02 sendreport.py(111): INFO  Title: 概述
+04/05/14 21:20:02 sendreport.py(111): INFO  -------------
+04/05/14 21:20:02 sendreport.py(111): INFO  Description: 
+04/05/14 21:20:02 sendreport.py(111): INFO  目标                数量      
+04/05/14 21:20:02 sendreport.py(111): INFO  有效pv              19,645,363  
+04/05/14 21:20:02 sendreport.py(111): INFO  平均qps(24小时)   227.38      
+04/05/14 21:20:02 sendreport.py(111): INFO  平均qps(5w秒)      392.91      
+04/05/14 21:20:02 sendreport.py(111): INFO  平均rt              0.67 ms     
+04/05/14 21:20:02 sendreport.py(111): INFO  ================================
+04/05/14 21:20:02 sendreport.py(111): INFO  Title: 运行时间
+04/05/14 21:20:02 sendreport.py(111): INFO  -------------------
+04/05/14 21:20:02 sendreport.py(111): INFO  Description: 系统平均RT性能数据分布
+04/05/14 21:20:02 sendreport.py(111): INFO  目标   数量(ms)   比例
+04/05/14 21:20:02 sendreport.py(111): INFO  match    0.53         78.24%
+04/05/14 21:20:02 sendreport.py(111): INFO  rank     0.15         21.76%
+04/05/14 21:20:02 sendreport.py(111): INFO  other    -0.0         -0.0%
+04/05/14 21:20:02 sendreport.py(111): INFO  --------------------------
+04/05/14 21:20:02 sendreport.py(111): INFO  total    0.67         100%
+04/05/14 21:20:02 sendreport.py(111): INFO  ================================
+04/05/14 21:20:02 sendreport.py(111): INFO  Title: Match时间
+04/05/14 21:20:02 sendreport.py(111): INFO  ------------------
+04/05/14 21:20:02 sendreport.py(111): INFO  Description: Matching过程时间消耗明细
+04/05/14 21:20:02 sendreport.py(111): INFO  目标     数量(ms)   比例
+04/05/14 21:20:02 sendreport.py(111): INFO  match_rt   0.53         100%
+04/05/14 21:20:02 sendreport.py(111): INFO  ----------------------------
+04/05/14 21:20:02 sendreport.py(111): INFO  total      0.53         100%
+04/05/14 21:20:02 sendreport.py(111): INFO  ================================
+04/05/14 21:20:02 sendreport.py(111): INFO  Title: 峰值QPS
+04/05/14 21:20:02 sendreport.py(111): INFO  ----------------
+04/05/14 21:20:02 sendreport.py(111): INFO  Description: 按时、分、秒关注峰值QPS，注：小时的峰值按照3600秒求平均，不考虑中途停止服务情况
+04/05/14 21:20:02 sendreport.py(111): INFO  目标                          数量                       
+04/05/14 21:20:02 sendreport.py(111): INFO  小时峰值发生时间, QPS   2014-04-04 20时, 442.31     
+04/05/14 21:20:02 sendreport.py(111): INFO  分钟峰值发生时间, QPS   2014-04-04 21:02分, 470.20  
+04/05/14 21:20:02 sendreport.py(111): INFO  秒级峰值发生时间, QPS   2014-04-04 10:45:13, 968.00  
+04/05/14 21:20:02 sendreport.py(111): INFO  ================================
+04/05/14 21:20:02 sendreport.py(111): INFO  Title: 备忘录
+04/05/14 21:20:02 sendreport.py(111): INFO  ----------------
+04/05/14 21:20:02 sendreport.py(111): INFO  Description: 关于该报告的说明
+04/05/14 21:20:02 sendreport.py(111): INFO  选项         说明                                                                                                                                 
+04/05/14 21:20:02 sendreport.py(111): INFO  联系人      萧亮(xiaoliang.zxl@taobao.com)                                                                                                       
+04/05/14 21:20:02 sendreport.py(111): INFO  数据来源   Loki Profile日志，收集到云梯后，通过Hadoop计算得出;云梯路径: /group/tb-taoke-engine/logdata/aitaobao-profile/loki  
+04/05/14 21:20:02 sendreport.py(111): INFO  其他         有任何疑问可以与上述联系人联系，请勿直接回复本邮件                                                            
+04/05/14 21:20:02 sendreport.py(111): INFO  ================================
+04/05/14 21:20:02 sendreport.py(125): INFO  send mail to xiaoliang.zxl@taobao.com
+04/05/14 21:20:02 sendreport.py(235): INFO  done
+04/05/14 21:53:46 sendreport.py(229): INFO  send report from input data file: /home/xiaoliang.zxl/loki_profile/output/20140404/part-00000
+04/05/14 21:53:47 sendreport.py(108): INFO  show report as follow
+04/05/14 21:53:47 sendreport.py(111): INFO  Loki运行状态报告-2014-04-04
+04/05/14 21:53:47 sendreport.py(111): INFO  ================================
+04/05/14 21:53:47 sendreport.py(111): INFO  Title: 概述
+04/05/14 21:53:47 sendreport.py(111): INFO  -------------
+04/05/14 21:53:47 sendreport.py(111): INFO  Description: 
+04/05/14 21:53:47 sendreport.py(111): INFO  目标                数量      
+04/05/14 21:53:47 sendreport.py(111): INFO  有效pv              19,645,363  
+04/05/14 21:53:47 sendreport.py(111): INFO  平均qps(24小时)   227.38      
+04/05/14 21:53:47 sendreport.py(111): INFO  平均qps(5w秒)      392.91      
+04/05/14 21:53:47 sendreport.py(111): INFO  平均rt              0.67 ms     
+04/05/14 21:53:47 sendreport.py(111): INFO  ================================
+04/05/14 21:53:47 sendreport.py(111): INFO  Title: 运行时间
+04/05/14 21:53:47 sendreport.py(111): INFO  -------------------
+04/05/14 21:53:47 sendreport.py(111): INFO  Description: 系统平均RT性能数据分布
+04/05/14 21:53:47 sendreport.py(111): INFO  目标   数量(ms)   比例
+04/05/14 21:53:47 sendreport.py(111): INFO  match    0.53         78.24%
+04/05/14 21:53:47 sendreport.py(111): INFO  rank     0.15         21.76%
+04/05/14 21:53:47 sendreport.py(111): INFO  other    -0.0         -0.0%
+04/05/14 21:53:47 sendreport.py(111): INFO  --------------------------
+04/05/14 21:53:47 sendreport.py(111): INFO  total    0.67         100%
+04/05/14 21:53:47 sendreport.py(111): INFO  ================================
+04/05/14 21:53:47 sendreport.py(111): INFO  Title: Match时间
+04/05/14 21:53:47 sendreport.py(111): INFO  ------------------
+04/05/14 21:53:47 sendreport.py(111): INFO  Description: Matching过程时间消耗明细
+04/05/14 21:53:47 sendreport.py(111): INFO  目标     数量(ms)   比例
+04/05/14 21:53:47 sendreport.py(111): INFO  match_rt   0.53         100%
+04/05/14 21:53:47 sendreport.py(111): INFO  ----------------------------
+04/05/14 21:53:47 sendreport.py(111): INFO  total      0.53         100%
+04/05/14 21:53:47 sendreport.py(111): INFO  ================================
+04/05/14 21:53:47 sendreport.py(111): INFO  Title: 峰值QPS
+04/05/14 21:53:47 sendreport.py(111): INFO  ----------------
+04/05/14 21:53:47 sendreport.py(111): INFO  Description: 按时、分、秒关注峰值QPS，注：小时的峰值按照3600秒求平均，不考虑中途停止服务情况
+04/05/14 21:53:47 sendreport.py(111): INFO  目标                          数量                       
+04/05/14 21:53:47 sendreport.py(111): INFO  小时峰值发生时间, QPS   442.31,  2014-04-04 20时    
+04/05/14 21:53:47 sendreport.py(111): INFO  分钟峰值发生时间, QPS   2014-04-04 21:02分, 470.20  
+04/05/14 21:53:47 sendreport.py(111): INFO  秒级峰值发生时间, QPS   2014-04-04 10:45:13, 968.00  
+04/05/14 21:53:47 sendreport.py(111): INFO  ================================
+04/05/14 21:53:47 sendreport.py(111): INFO  Title: 备忘录
+04/05/14 21:53:47 sendreport.py(111): INFO  ----------------
+04/05/14 21:53:47 sendreport.py(111): INFO  Description: 关于该报告的说明
+04/05/14 21:53:47 sendreport.py(111): INFO  选项         说明                                                                                                                                 
+04/05/14 21:53:47 sendreport.py(111): INFO  联系人      萧亮(xiaoliang.zxl@taobao.com)                                                                                                       
+04/05/14 21:53:47 sendreport.py(111): INFO  数据来源   Loki Profile日志，收集到云梯后，通过Hadoop计算得出;云梯路径: /group/tb-taoke-engine/logdata/aitaobao-profile/loki  
+04/05/14 21:53:47 sendreport.py(111): INFO  其他         有任何疑问可以与上述联系人联系，请勿直接回复本邮件                                                            
+04/05/14 21:53:47 sendreport.py(111): INFO  ================================
+04/05/14 21:53:47 sendreport.py(125): INFO  send mail to xiaoliang.zxl@taobao.com
+04/05/14 21:53:47 sendreport.py(235): INFO  done
+04/05/14 21:57:20 sendreport.py(229): INFO  send report from input data file: /home/xiaoliang.zxl/loki_profile/output/20140404/part-00000
+04/05/14 21:57:20 sendreport.py(108): INFO  show report as follow
+04/05/14 21:57:20 sendreport.py(111): INFO  Loki运行状态报告-2014-04-04
+04/05/14 21:57:20 sendreport.py(111): INFO  ================================
+04/05/14 21:57:20 sendreport.py(111): INFO  Title: 概述
+04/05/14 21:57:20 sendreport.py(111): INFO  -------------
+04/05/14 21:57:20 sendreport.py(111): INFO  Description: 
+04/05/14 21:57:20 sendreport.py(111): INFO  目标                数量      
+04/05/14 21:57:20 sendreport.py(111): INFO  有效pv              19,645,363  
+04/05/14 21:57:20 sendreport.py(111): INFO  平均qps(24小时)   227.38      
+04/05/14 21:57:20 sendreport.py(111): INFO  平均qps(5w秒)      392.91      
+04/05/14 21:57:20 sendreport.py(111): INFO  平均rt              0.67 ms     
+04/05/14 21:57:20 sendreport.py(111): INFO  ================================
+04/05/14 21:57:20 sendreport.py(111): INFO  Title: 运行时间
+04/05/14 21:57:20 sendreport.py(111): INFO  -------------------
+04/05/14 21:57:20 sendreport.py(111): INFO  Description: 系统平均RT性能数据分布
+04/05/14 21:57:20 sendreport.py(111): INFO  目标   数量(ms)   比例
+04/05/14 21:57:20 sendreport.py(111): INFO  match    0.53         78.24%
+04/05/14 21:57:20 sendreport.py(111): INFO  rank     0.15         21.76%
+04/05/14 21:57:20 sendreport.py(111): INFO  other    -0.0         -0.0%
+04/05/14 21:57:20 sendreport.py(111): INFO  --------------------------
+04/05/14 21:57:20 sendreport.py(111): INFO  total    0.67         100%
+04/05/14 21:57:20 sendreport.py(111): INFO  ================================
+04/05/14 21:57:20 sendreport.py(111): INFO  Title: Match时间
+04/05/14 21:57:20 sendreport.py(111): INFO  ------------------
+04/05/14 21:57:20 sendreport.py(111): INFO  Description: Matching过程时间消耗明细
+04/05/14 21:57:20 sendreport.py(111): INFO  目标     数量(ms)   比例
+04/05/14 21:57:20 sendreport.py(111): INFO  match_rt   0.53         100%
+04/05/14 21:57:20 sendreport.py(111): INFO  ----------------------------
+04/05/14 21:57:20 sendreport.py(111): INFO  total      0.53         100%
+04/05/14 21:57:20 sendreport.py(111): INFO  ================================
+04/05/14 21:57:20 sendreport.py(111): INFO  Title: 峰值QPS
+04/05/14 21:57:20 sendreport.py(111): INFO  ----------------
+04/05/14 21:57:20 sendreport.py(111): INFO  Description: 按时、分、秒关注峰值QPS，注：小时的峰值按照3600秒求平均，不考虑中途停止服务情况
+04/05/14 21:57:20 sendreport.py(111): INFO  目标                          数量                          
+04/05/14 21:57:20 sendreport.py(111): INFO  小时峰值发生时间, QPS   442.31,  2014-04-04 20时       
+04/05/14 21:57:20 sendreport.py(111): INFO  分钟峰值发生时间, QPS   470.20,  2014-04-04 21:02分    
+04/05/14 21:57:20 sendreport.py(111): INFO  秒级峰值发生时间, QPS   968.00, 2014-04-04 10:45:13秒  
+04/05/14 21:57:20 sendreport.py(111): INFO  ================================
+04/05/14 21:57:20 sendreport.py(111): INFO  Title: 备忘录
+04/05/14 21:57:20 sendreport.py(111): INFO  ----------------
+04/05/14 21:57:20 sendreport.py(111): INFO  Description: 关于该报告的说明
+04/05/14 21:57:20 sendreport.py(111): INFO  选项         说明                                                                                                                                 
+04/05/14 21:57:20 sendreport.py(111): INFO  联系人      萧亮(xiaoliang.zxl@taobao.com)                                                                                                       
+04/05/14 21:57:20 sendreport.py(111): INFO  数据来源   Loki Profile日志，收集到云梯后，通过Hadoop计算得出;云梯路径: /group/tb-taoke-engine/logdata/aitaobao-profile/loki  
+04/05/14 21:57:20 sendreport.py(111): INFO  其他         有任何疑问可以与上述联系人联系，请勿直接回复本邮件                                                            
+04/05/14 21:57:20 sendreport.py(111): INFO  ================================
+04/05/14 21:57:20 sendreport.py(125): INFO  send mail to xiaoliang.zxl@taobao.com
+04/05/14 21:57:20 sendreport.py(235): INFO  done
+04/05/14 22:02:36 sendreport.py(229): INFO  send report from input data file: /home/xiaoliang.zxl/loki_profile/output/20140404/part-00000
+04/05/14 22:02:36 sendreport.py(108): INFO  show report as follow
+04/05/14 22:02:36 sendreport.py(111): INFO  Loki运行状态报告-2014-04-04
+04/05/14 22:02:36 sendreport.py(111): INFO  ================================
+04/05/14 22:02:36 sendreport.py(111): INFO  Title: 概述
+04/05/14 22:02:36 sendreport.py(111): INFO  -------------
+04/05/14 22:02:36 sendreport.py(111): INFO  Description: 
+04/05/14 22:02:36 sendreport.py(111): INFO  目标                数量      
+04/05/14 22:02:36 sendreport.py(111): INFO  有效pv              19,645,363  
+04/05/14 22:02:36 sendreport.py(111): INFO  平均qps(24小时)   227.38      
+04/05/14 22:02:36 sendreport.py(111): INFO  平均qps(5w秒)      392.91      
+04/05/14 22:02:36 sendreport.py(111): INFO  平均rt              0.67 ms     
+04/05/14 22:02:36 sendreport.py(111): INFO  ================================
+04/05/14 22:02:36 sendreport.py(111): INFO  Title: 运行时间
+04/05/14 22:02:36 sendreport.py(111): INFO  -------------------
+04/05/14 22:02:36 sendreport.py(111): INFO  Description: 系统平均RT性能数据分布
+04/05/14 22:02:36 sendreport.py(111): INFO  目标   数量(ms)   比例
+04/05/14 22:02:36 sendreport.py(111): INFO  match    0.53         78.24%
+04/05/14 22:02:36 sendreport.py(111): INFO  rank     0.15         21.76%
+04/05/14 22:02:36 sendreport.py(111): INFO  other    -0.0         -0.0%
+04/05/14 22:02:36 sendreport.py(111): INFO  --------------------------
+04/05/14 22:02:36 sendreport.py(111): INFO  total    0.67         100%
+04/05/14 22:02:36 sendreport.py(111): INFO  ================================
+04/05/14 22:02:36 sendreport.py(111): INFO  Title: Match时间
+04/05/14 22:02:36 sendreport.py(111): INFO  ------------------
+04/05/14 22:02:36 sendreport.py(111): INFO  Description: Matching过程时间消耗明细
+04/05/14 22:02:36 sendreport.py(111): INFO  目标     数量(ms)   比例
+04/05/14 22:02:36 sendreport.py(111): INFO  match_rt   0.53         100%
+04/05/14 22:02:36 sendreport.py(111): INFO  ----------------------------
+04/05/14 22:02:36 sendreport.py(111): INFO  total      0.53         100%
+04/05/14 22:02:36 sendreport.py(111): INFO  ================================
+04/05/14 22:02:36 sendreport.py(111): INFO  Title: 峰值QPS
+04/05/14 22:02:36 sendreport.py(111): INFO  ----------------
+04/05/14 22:02:36 sendreport.py(111): INFO  Description: 按时、分、秒关注峰值QPS，注：小时的峰值按照3600秒求平均，不考虑中途停止服务情况
+04/05/14 22:02:36 sendreport.py(111): INFO  目标                          数量                          
+04/05/14 22:02:36 sendreport.py(111): INFO  小时峰值发生时间, QPS   442.31,  2014-04-04 20时       
+04/05/14 22:02:36 sendreport.py(111): INFO  分钟峰值发生时间, QPS   470.20,  2014-04-04 21:02分    
+04/05/14 22:02:36 sendreport.py(111): INFO  秒级峰值发生时间, QPS   968.00, 2014-04-04 10:45:13秒  
+04/05/14 22:02:36 sendreport.py(111): INFO  ================================
+04/05/14 22:02:36 sendreport.py(111): INFO  Title: 备忘录
+04/05/14 22:02:36 sendreport.py(111): INFO  ----------------
+04/05/14 22:02:36 sendreport.py(111): INFO  Description: 关于该报告的说明
+04/05/14 22:02:36 sendreport.py(111): INFO  选项         说明                                                                                                                                 
+04/05/14 22:02:36 sendreport.py(111): INFO  联系人      萧亮(xiaoliang.zxl@taobao.com)                                                                                                       
+04/05/14 22:02:36 sendreport.py(111): INFO  数据来源   Loki Profile日志，收集到云梯后，通过Hadoop计算得出;云梯路径: /group/tb-taoke-engine/logdata/aitaobao-profile/loki  
+04/05/14 22:02:36 sendreport.py(111): INFO  其他         有任何疑问可以与上述联系人联系，请勿直接回复本邮件                                                            
+04/05/14 22:02:36 sendreport.py(111): INFO  ================================
+04/05/14 22:02:36 sendreport.py(125): INFO  send mail to xiaoliang.zxl@taobao.com
+04/05/14 22:02:36 sendreport.py(235): INFO  done
+04/05/14 22:12:30 sendreport.py(229): INFO  send report from input data file: /home/xiaoliang.zxl/loki_profile/output/20140404/part-00000
+04/05/14 22:12:30 sendreport.py(108): INFO  show report as follow
+04/05/14 22:12:30 sendreport.py(111): INFO  Loki运行状态报告-2014-04-04
+04/05/14 22:12:30 sendreport.py(111): INFO  ================================
+04/05/14 22:12:30 sendreport.py(111): INFO  Title: 概述
+04/05/14 22:12:30 sendreport.py(111): INFO  -------------
+04/05/14 22:12:30 sendreport.py(111): INFO  Description: 
+04/05/14 22:12:30 sendreport.py(111): INFO  目标                数量      
+04/05/14 22:12:30 sendreport.py(111): INFO  有效pv              19,645,363  
+04/05/14 22:12:30 sendreport.py(111): INFO  平均qps(24小时)   227.38      
+04/05/14 22:12:30 sendreport.py(111): INFO  平均qps(5w秒)      392.91      
+04/05/14 22:12:30 sendreport.py(111): INFO  平均rt              0.67 ms     
+04/05/14 22:12:30 sendreport.py(111): INFO  ================================
+04/05/14 22:12:30 sendreport.py(111): INFO  Title: 运行时间
+04/05/14 22:12:30 sendreport.py(111): INFO  -------------------
+04/05/14 22:12:30 sendreport.py(111): INFO  Description: 系统平均RT性能数据分布
+04/05/14 22:12:30 sendreport.py(111): INFO  目标   数量(ms)   比例
+04/05/14 22:12:30 sendreport.py(111): INFO  match    0.53         78.24%
+04/05/14 22:12:30 sendreport.py(111): INFO  rank     0.15         21.76%
+04/05/14 22:12:30 sendreport.py(111): INFO  other    -0.0         -0.0%
+04/05/14 22:12:30 sendreport.py(111): INFO  --------------------------
+04/05/14 22:12:30 sendreport.py(111): INFO  total    0.67         100%
+04/05/14 22:12:30 sendreport.py(111): INFO  ================================
+04/05/14 22:12:30 sendreport.py(111): INFO  Title: Match时间
+04/05/14 22:12:30 sendreport.py(111): INFO  ------------------
+04/05/14 22:12:30 sendreport.py(111): INFO  Description: Matching过程时间消耗明细
+04/05/14 22:12:30 sendreport.py(111): INFO  目标     数量(ms)   比例
+04/05/14 22:12:30 sendreport.py(111): INFO  match_rt   0.53         100%
+04/05/14 22:12:30 sendreport.py(111): INFO  ----------------------------
+04/05/14 22:12:30 sendreport.py(111): INFO  total      0.53         100%
+04/05/14 22:12:30 sendreport.py(111): INFO  ================================
+04/05/14 22:12:30 sendreport.py(111): INFO  Title: 峰值QPS
+04/05/14 22:12:30 sendreport.py(111): INFO  ----------------
+04/05/14 22:12:30 sendreport.py(111): INFO  Description: 按时、分、秒关注峰值QPS，注：小时的峰值按照3600秒求平均，不考虑中途停止服务情况
+04/05/14 22:12:30 sendreport.py(111): INFO  目标                          数量                          
+04/05/14 22:12:30 sendreport.py(111): INFO  小时峰值发生时间, QPS   442.31,  2014-04-04 20时       
+04/05/14 22:12:30 sendreport.py(111): INFO  分钟峰值发生时间, QPS   470.20,  2014-04-04 21:02分    
+04/05/14 22:12:30 sendreport.py(111): INFO  秒级峰值发生时间, QPS   968.00, 2014-04-04 10:45:13秒  
+04/05/14 22:12:30 sendreport.py(111): INFO  ================================
+04/05/14 22:12:30 sendreport.py(111): INFO  Title: 备忘录
+04/05/14 22:12:30 sendreport.py(111): INFO  ----------------
+04/05/14 22:12:30 sendreport.py(111): INFO  Description: 关于该报告的说明
+04/05/14 22:12:30 sendreport.py(111): INFO  选项         说明                                                                                                                                 
+04/05/14 22:12:30 sendreport.py(111): INFO  联系人      萧亮(xiaoliang.zxl@taobao.com)                                                                                                       
+04/05/14 22:12:30 sendreport.py(111): INFO  数据来源   Loki Profile日志，收集到云梯后，通过Hadoop计算得出;云梯路径: /group/tb-taoke-engine/logdata/aitaobao-profile/loki  
+04/05/14 22:12:30 sendreport.py(111): INFO  其他         有任何疑问可以与上述联系人联系，请勿直接回复本邮件                                                            
+04/05/14 22:12:30 sendreport.py(111): INFO  ================================
+04/05/14 22:12:30 sendreport.py(125): INFO  send mail to xiaoliang.zxl@taobao.com
+04/05/14 22:12:30 sendreport.py(235): INFO  done
+04/05/14 22:22:55 sendreport.py(229): INFO  send report from input data file: /home/xiaoliang.zxl/loki_profile/output/20140404/part-00000
+04/06/14 11:59:09 sendreport.py(250): INFO  send report from input data file: /home/xiaoliang.zxl/loki_profile/output/20140405/part-00000
+04/06/14 11:59:10 sendreport.py(110): INFO  show report as follow
+04/06/14 11:59:10 sendreport.py(113): INFO  Loki运行状态报告-2014-04-05
+04/06/14 11:59:10 sendreport.py(113): INFO  ================================
+04/06/14 11:59:10 sendreport.py(113): INFO  Title: 概述
+04/06/14 11:59:10 sendreport.py(113): INFO  -------------
+04/06/14 11:59:10 sendreport.py(113): INFO  Description: 
+04/06/14 11:59:10 sendreport.py(113): INFO  目标                数量      
+04/06/14 11:59:10 sendreport.py(113): INFO  有效pv              16,629,494  
+04/06/14 11:59:10 sendreport.py(113): INFO  平均qps(24小时)   192.47      
+04/06/14 11:59:10 sendreport.py(113): INFO  平均qps(5w秒)      332.59      
+04/06/14 11:59:10 sendreport.py(113): INFO  平均rt              0.67 ms     
+04/06/14 11:59:10 sendreport.py(113): INFO  ================================
+04/06/14 11:59:10 sendreport.py(113): INFO  Title: 运行时间
+04/06/14 11:59:10 sendreport.py(113): INFO  -------------------
+04/06/14 11:59:10 sendreport.py(113): INFO  Description: 系统平均RT性能数据分布
+04/06/14 11:59:10 sendreport.py(113): INFO  目标   数量(ms)   比例
+04/06/14 11:59:10 sendreport.py(113): INFO  match    0.53         78.94%
+04/06/14 11:59:10 sendreport.py(113): INFO  rank     0.14         21.06%
+04/06/14 11:59:10 sendreport.py(113): INFO  other    -0.0         -0.0%
+04/06/14 11:59:10 sendreport.py(113): INFO  --------------------------
+04/06/14 11:59:10 sendreport.py(113): INFO  total    0.67         100%
+04/06/14 11:59:10 sendreport.py(113): INFO  ================================
+04/06/14 11:59:10 sendreport.py(113): INFO  Title: Match时间
+04/06/14 11:59:10 sendreport.py(113): INFO  ------------------
+04/06/14 11:59:10 sendreport.py(113): INFO  Description: Matching过程时间消耗明细
+04/06/14 11:59:10 sendreport.py(113): INFO  目标     数量(ms)   比例
+04/06/14 11:59:10 sendreport.py(113): INFO  match_rt   0.53         100%
+04/06/14 11:59:10 sendreport.py(113): INFO  ----------------------------
+04/06/14 11:59:10 sendreport.py(113): INFO  total      0.53         100%
+04/06/14 11:59:10 sendreport.py(113): INFO  ================================
+04/06/14 11:59:10 sendreport.py(113): INFO  Title: 清单
+04/06/14 11:59:10 sendreport.py(113): INFO  -------------
+04/06/14 11:59:10 sendreport.py(113): INFO  Description: 清单
+04/06/14 11:59:10 sendreport.py(113): INFO  目标        数量      
+04/06/14 11:59:10 sendreport.py(113): INFO  pv            13,307,687  
+04/06/14 11:59:10 sendreport.py(113): INFO  match_rt      0.51        
+04/06/14 11:59:10 sendreport.py(113): INFO  rank_rt       0.15        
+04/06/14 11:59:10 sendreport.py(113): INFO  rt            0.66        
+04/06/14 11:59:10 sendreport.py(113): INFO  failed pv     0           
+04/06/14 11:59:10 sendreport.py(113): INFO  succuess pv   13539821    
+04/06/14 11:59:10 sendreport.py(113): INFO  ================================
+04/06/14 11:59:10 sendreport.py(113): INFO  Title: 专辑
+04/06/14 11:59:10 sendreport.py(113): INFO  -------------
+04/06/14 11:59:10 sendreport.py(113): INFO  Description: 专辑
+04/06/14 11:59:10 sendreport.py(113): INFO  目标        数量     
+04/06/14 11:59:10 sendreport.py(113): INFO  pv            1,228,530  
+04/06/14 11:59:10 sendreport.py(113): INFO  match_rt      0.85       
+04/06/14 11:59:10 sendreport.py(113): INFO  rank_rt       0.22       
+04/06/14 11:59:10 sendreport.py(113): INFO  rt            1.07       
+04/06/14 11:59:10 sendreport.py(113): INFO  failed pv     0          
+04/06/14 11:59:10 sendreport.py(113): INFO  succuess pv   1251762    
+04/06/14 11:59:10 sendreport.py(113): INFO  ================================
+04/06/14 11:59:10 sendreport.py(113): INFO  Title: 搭配
+04/06/14 11:59:10 sendreport.py(113): INFO  -------------
+04/06/14 11:59:10 sendreport.py(113): INFO  Description: 搭配
+04/06/14 11:59:10 sendreport.py(113): INFO  目标        数量   
+04/06/14 11:59:10 sendreport.py(113): INFO  pv            739,182  
+04/06/14 11:59:10 sendreport.py(113): INFO  match_rt      0.49     
+04/06/14 11:59:10 sendreport.py(113): INFO  rank_rt       0.13     
+04/06/14 11:59:10 sendreport.py(113): INFO  rt            0.62     
+04/06/14 11:59:10 sendreport.py(113): INFO  failed pv     0        
+04/06/14 11:59:10 sendreport.py(113): INFO  succuess pv   754910   
+04/06/14 11:59:10 sendreport.py(113): INFO  ================================
+04/06/14 11:59:10 sendreport.py(113): INFO  Title: 峰值QPS
+04/06/14 11:59:10 sendreport.py(113): INFO  ----------------
+04/06/14 11:59:10 sendreport.py(113): INFO  Description: 按时、分、秒关注峰值QPS，注：小时的峰值按照3600秒求平均，不考虑中途停止服务情况
+04/06/14 11:59:10 sendreport.py(113): INFO  目标                          数量                       
+04/06/14 11:59:10 sendreport.py(113): INFO  小时峰值发生时间, QPS   2014-04-05 20时, 375.00     
+04/06/14 11:59:10 sendreport.py(113): INFO  分钟峰值发生时间, QPS   2014-04-05 20:34分, 389.08  
+04/06/14 11:59:10 sendreport.py(113): INFO  秒级峰值发生时间, QPS   2014-04-05 12:11:21, 873.00  
+04/06/14 11:59:10 sendreport.py(113): INFO  ================================
+04/06/14 11:59:10 sendreport.py(113): INFO  Title: 备忘录
+04/06/14 11:59:10 sendreport.py(113): INFO  ----------------
+04/06/14 11:59:10 sendreport.py(113): INFO  Description: 关于该报告的说明
+04/06/14 11:59:10 sendreport.py(113): INFO  选项         说明                                                                                                                                 
+04/06/14 11:59:10 sendreport.py(113): INFO  联系人      萧亮(xiaoliang.zxl@taobao.com)                                                                                                       
+04/06/14 11:59:10 sendreport.py(113): INFO  数据来源   Loki Profile日志，收集到云梯后，通过Hadoop计算得出;云梯路径: /group/tb-taoke-engine/logdata/aitaobao-profile/loki  
+04/06/14 11:59:10 sendreport.py(113): INFO  其他         有任何疑问可以与上述联系人联系，请勿直接回复本邮件                                                            
+04/06/14 11:59:10 sendreport.py(113): INFO  ================================
+04/06/14 11:59:10 sendreport.py(127): INFO  send mail to xiaoliang.zxl@taobao.com
+04/06/14 11:59:10 sendreport.py(256): INFO  done
+04/06/14 12:07:51 sendreport.py(250): INFO  send report from input data file: /home/xiaoliang.zxl/loki_profile/output/20140405/part-00000
+04/06/14 12:07:52 sendreport.py(110): INFO  show report as follow
+04/06/14 12:07:52 sendreport.py(113): INFO  Loki运行状态报告-2014-04-05
+04/06/14 12:07:52 sendreport.py(113): INFO  ================================
+04/06/14 12:07:52 sendreport.py(113): INFO  Title: 概述
+04/06/14 12:07:52 sendreport.py(113): INFO  -------------
+04/06/14 12:07:52 sendreport.py(113): INFO  Description: 
+04/06/14 12:07:52 sendreport.py(113): INFO  目标                数量      
+04/06/14 12:07:52 sendreport.py(113): INFO  有效pv              16,629,494  
+04/06/14 12:07:52 sendreport.py(113): INFO  平均qps(24小时)   192.47      
+04/06/14 12:07:52 sendreport.py(113): INFO  平均qps(5w秒)      332.59      
+04/06/14 12:07:52 sendreport.py(113): INFO  平均rt              0.67 ms     
+04/06/14 12:07:52 sendreport.py(113): INFO  ================================
+04/06/14 12:07:52 sendreport.py(113): INFO  Title: 运行时间
+04/06/14 12:07:52 sendreport.py(113): INFO  -------------------
+04/06/14 12:07:52 sendreport.py(113): INFO  Description: 系统平均RT性能数据分布
+04/06/14 12:07:52 sendreport.py(113): INFO  目标   数量(ms)   比例
+04/06/14 12:07:52 sendreport.py(113): INFO  match    0.53         78.94%
+04/06/14 12:07:52 sendreport.py(113): INFO  rank     0.14         21.06%
+04/06/14 12:07:52 sendreport.py(113): INFO  other    -0.0         -0.0%
+04/06/14 12:07:52 sendreport.py(113): INFO  --------------------------
+04/06/14 12:07:52 sendreport.py(113): INFO  total    0.67         100%
+04/06/14 12:07:52 sendreport.py(113): INFO  ================================
+04/06/14 12:07:52 sendreport.py(113): INFO  Title: Match时间
+04/06/14 12:07:52 sendreport.py(113): INFO  ------------------
+04/06/14 12:07:52 sendreport.py(113): INFO  Description: Matching过程时间消耗明细
+04/06/14 12:07:52 sendreport.py(113): INFO  目标     数量(ms)   比例
+04/06/14 12:07:52 sendreport.py(113): INFO  match_rt   0.53         100%
+04/06/14 12:07:52 sendreport.py(113): INFO  ----------------------------
+04/06/14 12:07:52 sendreport.py(113): INFO  total      0.53         100%
+04/06/14 12:07:52 sendreport.py(113): INFO  ================================
+04/06/14 12:07:52 sendreport.py(113): INFO  Title: 清单
+04/06/14 12:07:52 sendreport.py(113): INFO  -------------
+04/06/14 12:07:52 sendreport.py(113): INFO  Description: 清单
+04/06/14 12:07:52 sendreport.py(113): INFO  目标        数量      
+04/06/14 12:07:52 sendreport.py(113): INFO  pv            13,307,687  
+04/06/14 12:07:52 sendreport.py(113): INFO  match_rt      0.54        
+04/06/14 12:07:52 sendreport.py(113): INFO  rank_rt       0.14        
+04/06/14 12:07:52 sendreport.py(113): INFO  rt            0.68        
+04/06/14 12:07:52 sendreport.py(113): INFO  failed pv     0           
+04/06/14 12:07:52 sendreport.py(113): INFO  succuess pv   13580535    
+04/06/14 12:07:52 sendreport.py(113): INFO  ================================
+04/06/14 12:07:52 sendreport.py(113): INFO  Title: 专辑
+04/06/14 12:07:52 sendreport.py(113): INFO  -------------
+04/06/14 12:07:52 sendreport.py(113): INFO  Description: 专辑
+04/06/14 12:07:52 sendreport.py(113): INFO  目标        数量     
+04/06/14 12:07:52 sendreport.py(113): INFO  pv            1,228,530  
+04/06/14 12:07:52 sendreport.py(113): INFO  match_rt      0.88       
+04/06/14 12:07:52 sendreport.py(113): INFO  rank_rt       0.22       
+04/06/14 12:07:52 sendreport.py(113): INFO  rt            1.09       
+04/06/14 12:07:52 sendreport.py(113): INFO  failed pv     0          
+04/06/14 12:07:52 sendreport.py(113): INFO  succuess pv   1256461    
+04/06/14 12:07:52 sendreport.py(113): INFO  ================================
+04/06/14 12:07:52 sendreport.py(113): INFO  Title: 搭配
+04/06/14 12:07:52 sendreport.py(113): INFO  -------------
+04/06/14 12:07:52 sendreport.py(113): INFO  Description: 搭配
+04/06/14 12:07:52 sendreport.py(113): INFO  目标        数量   
+04/06/14 12:07:52 sendreport.py(113): INFO  pv            739,182  
+04/06/14 12:07:52 sendreport.py(113): INFO  match_rt      0.52     
+04/06/14 12:07:52 sendreport.py(113): INFO  rank_rt       0.12     
+04/06/14 12:07:52 sendreport.py(113): INFO  rt            0.64     
+04/06/14 12:07:52 sendreport.py(113): INFO  failed pv     0        
+04/06/14 12:07:52 sendreport.py(113): INFO  succuess pv   758386   
+04/06/14 12:07:52 sendreport.py(113): INFO  ================================
+04/06/14 12:07:52 sendreport.py(113): INFO  Title: 峰值QPS
+04/06/14 12:07:52 sendreport.py(113): INFO  ----------------
+04/06/14 12:07:52 sendreport.py(113): INFO  Description: 按时、分、秒关注峰值QPS，注：小时的峰值按照3600秒求平均，不考虑中途停止服务情况
+04/06/14 12:07:52 sendreport.py(113): INFO  目标                          数量                       
+04/06/14 12:07:52 sendreport.py(113): INFO  小时峰值发生时间, QPS   2014-04-05 20时, 375.00     
+04/06/14 12:07:52 sendreport.py(113): INFO  分钟峰值发生时间, QPS   2014-04-05 20:34分, 389.08  
+04/06/14 12:07:52 sendreport.py(113): INFO  秒级峰值发生时间, QPS   2014-04-05 12:11:21, 873.00  
+04/06/14 12:07:52 sendreport.py(113): INFO  ================================
+04/06/14 12:07:52 sendreport.py(113): INFO  Title: 备忘录
+04/06/14 12:07:52 sendreport.py(113): INFO  ----------------
+04/06/14 12:07:52 sendreport.py(113): INFO  Description: 关于该报告的说明
+04/06/14 12:07:52 sendreport.py(113): INFO  选项         说明                                                                                                                                 
+04/06/14 12:07:52 sendreport.py(113): INFO  联系人      萧亮(xiaoliang.zxl@taobao.com)                                                                                                       
+04/06/14 12:07:52 sendreport.py(113): INFO  数据来源   Loki Profile日志，收集到云梯后，通过Hadoop计算得出;云梯路径: /group/tb-taoke-engine/logdata/aitaobao-profile/loki  
+04/06/14 12:07:52 sendreport.py(113): INFO  其他         有任何疑问可以与上述联系人联系，请勿直接回复本邮件                                                            
+04/06/14 12:07:52 sendreport.py(113): INFO  ================================
+04/06/14 12:07:52 sendreport.py(127): INFO  send mail to taobao-ad-tech-taoke-engine@list.alibaba-inc.com
+04/06/14 12:07:52 sendreport.py(256): INFO  done
+04/10/14 18:22:23 sendreport.py(250): INFO  send report from input data file: /home/xiaoliang.zxl/loki_profile/output/20140409/part-00000
+04/10/14 18:22:23 sendreport.py(110): INFO  show report as follow
+04/10/14 18:22:23 sendreport.py(113): INFO  Loki运行状态报告-2014-04-09
+04/10/14 18:22:23 sendreport.py(113): INFO  ================================
+04/10/14 18:22:23 sendreport.py(113): INFO  Title: 概述
+04/10/14 18:22:23 sendreport.py(113): INFO  -------------
+04/10/14 18:22:23 sendreport.py(113): INFO  Description: 
+04/10/14 18:22:23 sendreport.py(113): INFO  目标                数量      
+04/10/14 18:22:23 sendreport.py(113): INFO  有效pv              16,259,077  
+04/10/14 18:22:23 sendreport.py(113): INFO  平均qps(24小时)   188.18      
+04/10/14 18:22:23 sendreport.py(113): INFO  平均qps(5w秒)      325.18      
+04/10/14 18:22:23 sendreport.py(113): INFO  平均rt              0.70 ms     
+04/10/14 18:22:23 sendreport.py(113): INFO  ================================
+04/10/14 18:22:23 sendreport.py(113): INFO  Title: 运行时间
+04/10/14 18:22:23 sendreport.py(113): INFO  -------------------
+04/10/14 18:22:23 sendreport.py(113): INFO  Description: 系统平均RT性能数据分布
+04/10/14 18:22:23 sendreport.py(113): INFO  目标   数量(ms)   比例
+04/10/14 18:22:23 sendreport.py(113): INFO  match    0.54         77.87%
+04/10/14 18:22:23 sendreport.py(113): INFO  rank     0.15         22.13%
+04/10/14 18:22:23 sendreport.py(113): INFO  other    0.0          0.0%
+04/10/14 18:22:23 sendreport.py(113): INFO  --------------------------
+04/10/14 18:22:23 sendreport.py(113): INFO  total    0.7          100%
+04/10/14 18:22:23 sendreport.py(113): INFO  ================================
+04/10/14 18:22:23 sendreport.py(113): INFO  Title: Match时间
+04/10/14 18:22:23 sendreport.py(113): INFO  ------------------
+04/10/14 18:22:23 sendreport.py(113): INFO  Description: Matching过程时间消耗明细
+04/10/14 18:22:23 sendreport.py(113): INFO  目标     数量(ms)   比例
+04/10/14 18:22:23 sendreport.py(113): INFO  match_rt   0.54         100%
+04/10/14 18:22:23 sendreport.py(113): INFO  ----------------------------
+04/10/14 18:22:23 sendreport.py(113): INFO  total      0.54         100%
+04/10/14 18:22:23 sendreport.py(113): INFO  ================================
+04/10/14 18:22:23 sendreport.py(113): INFO  Title: 清单
+04/10/14 18:22:23 sendreport.py(113): INFO  -------------
+04/10/14 18:22:23 sendreport.py(113): INFO  Description: 清单
+04/10/14 18:22:23 sendreport.py(113): INFO  目标        数量      
+04/10/14 18:22:23 sendreport.py(113): INFO  pv            13,370,685  
+04/10/14 18:22:23 sendreport.py(113): INFO  match_rt      0.51        
+04/10/14 18:22:23 sendreport.py(113): INFO  rank_rt       0.15        
+04/10/14 18:22:23 sendreport.py(113): INFO  rt            0.66        
+04/10/14 18:22:23 sendreport.py(113): INFO  failed pv     0           
+04/10/14 18:22:23 sendreport.py(113): INFO  succuess pv   13315483    
+04/10/14 18:22:23 sendreport.py(113): INFO  ================================
+04/10/14 18:22:23 sendreport.py(113): INFO  Title: 专辑
+04/10/14 18:22:23 sendreport.py(113): INFO  -------------
+04/10/14 18:22:23 sendreport.py(113): INFO  Description: 专辑
+04/10/14 18:22:23 sendreport.py(113): INFO  目标        数量     
+04/10/14 18:22:23 sendreport.py(113): INFO  pv            1,250,218  
+04/10/14 18:22:23 sendreport.py(113): INFO  match_rt      0.95       
+04/10/14 18:22:23 sendreport.py(113): INFO  rank_rt       0.23       
+04/10/14 18:22:23 sendreport.py(113): INFO  rt            1.16       
+04/10/14 18:22:23 sendreport.py(113): INFO  failed pv     0          
+04/10/14 18:22:23 sendreport.py(113): INFO  succuess pv   1241190    
+04/10/14 18:22:23 sendreport.py(113): INFO  ================================
+04/10/14 18:22:23 sendreport.py(113): INFO  Title: 搭配
+04/10/14 18:22:23 sendreport.py(113): INFO  -------------
+04/10/14 18:22:23 sendreport.py(113): INFO  Description: 搭配
+04/10/14 18:22:23 sendreport.py(113): INFO  目标        数量   
+04/10/14 18:22:23 sendreport.py(113): INFO  pv            713,253  
+04/10/14 18:22:23 sendreport.py(113): INFO  match_rt      0.45     
+04/10/14 18:22:23 sendreport.py(113): INFO  rank_rt       0.11     
+04/10/14 18:22:23 sendreport.py(113): INFO  rt            0.56     
+04/10/14 18:22:23 sendreport.py(113): INFO  failed pv     0        
+04/10/14 18:22:23 sendreport.py(113): INFO  succuess pv   706040   
+04/10/14 18:22:23 sendreport.py(113): INFO  ================================
+04/10/14 18:22:23 sendreport.py(113): INFO  Title: 峰值QPS
+04/10/14 18:22:23 sendreport.py(113): INFO  ----------------
+04/10/14 18:22:23 sendreport.py(113): INFO  Description: 按时、分、秒关注峰值QPS，注：小时的峰值按照3600秒求平均，不考虑中途停止服务情况
+04/10/14 18:22:23 sendreport.py(113): INFO  目标                          数量                       
+04/10/14 18:22:23 sendreport.py(113): INFO  小时峰值发生时间, QPS   2014-04-09 20时, 353.00     
+04/10/14 18:22:23 sendreport.py(113): INFO  分钟峰值发生时间, QPS   2014-04-09 20:21分, 372.40  
+04/10/14 18:22:23 sendreport.py(113): INFO  秒级峰值发生时间, QPS   2014-04-09 11:32:33, 722.00  
+04/10/14 18:22:23 sendreport.py(113): INFO  ================================
+04/10/14 18:22:23 sendreport.py(113): INFO  Title: 备忘录
+04/10/14 18:22:23 sendreport.py(113): INFO  ----------------
+04/10/14 18:22:23 sendreport.py(113): INFO  Description: 关于该报告的说明
+04/10/14 18:22:23 sendreport.py(113): INFO  选项         说明                                                                                                                                 
+04/10/14 18:22:23 sendreport.py(113): INFO  联系人      萧亮(xiaoliang.zxl@taobao.com)                                                                                                       
+04/10/14 18:22:23 sendreport.py(113): INFO  数据来源   Loki Profile日志，收集到云梯后，通过Hadoop计算得出;云梯路径: /group/tb-taoke-engine/logdata/aitaobao-profile/loki  
+04/10/14 18:22:23 sendreport.py(113): INFO  其他         有任何疑问可以与上述联系人联系，请勿直接回复本邮件                                                            
+04/10/14 18:22:23 sendreport.py(113): INFO  ================================
+04/10/14 18:22:23 sendreport.py(127): INFO  send mail to xiaoliang.zxl@taobao.com
+04/10/14 18:22:23 sendreport.py(256): INFO  done
+04/10/14 18:32:25 sendreport.py(250): INFO  send report from input data file: output/20140409/part-00000
+04/10/14 18:32:25 sendreport.py(110): INFO  show report as follow
+04/10/14 18:32:25 sendreport.py(113): INFO  Loki运行状态报告-2014-04-09
+04/10/14 18:32:25 sendreport.py(113): INFO  ================================
+04/10/14 18:32:25 sendreport.py(113): INFO  Title: 概述
+04/10/14 18:32:25 sendreport.py(113): INFO  -------------
+04/10/14 18:32:25 sendreport.py(113): INFO  Description: 
+04/10/14 18:32:25 sendreport.py(113): INFO  目标                数量      
+04/10/14 18:32:25 sendreport.py(113): INFO  有效pv              16,259,077  
+04/10/14 18:32:25 sendreport.py(113): INFO  平均qps(24小时)   188.18      
+04/10/14 18:32:25 sendreport.py(113): INFO  平均qps(5w秒)      325.18      
+04/10/14 18:32:25 sendreport.py(113): INFO  平均rt              0.70 ms     
+04/10/14 18:32:25 sendreport.py(113): INFO  ================================
+04/10/14 18:32:25 sendreport.py(113): INFO  Title: 运行时间
+04/10/14 18:32:25 sendreport.py(113): INFO  -------------------
+04/10/14 18:32:25 sendreport.py(113): INFO  Description: 系统平均RT性能数据分布
+04/10/14 18:32:25 sendreport.py(113): INFO  目标   数量(ms)   比例
+04/10/14 18:32:25 sendreport.py(113): INFO  match    0.54         77.87%
+04/10/14 18:32:25 sendreport.py(113): INFO  rank     0.15         22.13%
+04/10/14 18:32:25 sendreport.py(113): INFO  other    0.0          0.0%
+04/10/14 18:32:25 sendreport.py(113): INFO  --------------------------
+04/10/14 18:32:25 sendreport.py(113): INFO  total    0.7          100%
+04/10/14 18:32:25 sendreport.py(113): INFO  ================================
+04/10/14 18:32:25 sendreport.py(113): INFO  Title: Match时间
+04/10/14 18:32:25 sendreport.py(113): INFO  ------------------
+04/10/14 18:32:25 sendreport.py(113): INFO  Description: Matching过程时间消耗明细
+04/10/14 18:32:25 sendreport.py(113): INFO  目标     数量(ms)   比例
+04/10/14 18:32:25 sendreport.py(113): INFO  match_rt   0.54         100%
+04/10/14 18:32:25 sendreport.py(113): INFO  ----------------------------
+04/10/14 18:32:25 sendreport.py(113): INFO  total      0.54         100%
+04/10/14 18:32:25 sendreport.py(113): INFO  ================================
+04/10/14 18:32:25 sendreport.py(113): INFO  Title: 清单
+04/10/14 18:32:25 sendreport.py(113): INFO  -------------
+04/10/14 18:32:25 sendreport.py(113): INFO  Description: 清单
+04/10/14 18:32:25 sendreport.py(113): INFO  目标        数量      
+04/10/14 18:32:25 sendreport.py(113): INFO  pv            13,370,685  
+04/10/14 18:32:25 sendreport.py(113): INFO  match_rt      0.51        
+04/10/14 18:32:25 sendreport.py(113): INFO  rank_rt       0.15        
+04/10/14 18:32:25 sendreport.py(113): INFO  rt            0.66        
+04/10/14 18:32:25 sendreport.py(113): INFO  succuess pv   13315483    
+04/10/14 18:32:25 sendreport.py(113): INFO  failed pv     55202       
+04/10/14 18:32:25 sendreport.py(113): INFO  ================================
+04/10/14 18:32:25 sendreport.py(113): INFO  Title: 专辑
+04/10/14 18:32:25 sendreport.py(113): INFO  -------------
+04/10/14 18:32:25 sendreport.py(113): INFO  Description: 专辑
+04/10/14 18:32:25 sendreport.py(113): INFO  目标        数量     
+04/10/14 18:32:25 sendreport.py(113): INFO  pv            1,250,218  
+04/10/14 18:32:25 sendreport.py(113): INFO  match_rt      0.95       
+04/10/14 18:32:25 sendreport.py(113): INFO  rank_rt       0.23       
+04/10/14 18:32:25 sendreport.py(113): INFO  rt            1.16       
+04/10/14 18:32:25 sendreport.py(113): INFO  succuess pv   1241190    
+04/10/14 18:32:25 sendreport.py(113): INFO  failed pv     9028       
+04/10/14 18:32:25 sendreport.py(113): INFO  ================================
+04/10/14 18:32:25 sendreport.py(113): INFO  Title: 搭配
+04/10/14 18:32:25 sendreport.py(113): INFO  -------------
+04/10/14 18:32:25 sendreport.py(113): INFO  Description: 搭配
+04/10/14 18:32:25 sendreport.py(113): INFO  目标        数量   
+04/10/14 18:32:25 sendreport.py(113): INFO  pv            713,253  
+04/10/14 18:32:25 sendreport.py(113): INFO  match_rt      0.45     
+04/10/14 18:32:25 sendreport.py(113): INFO  rank_rt       0.11     
+04/10/14 18:32:25 sendreport.py(113): INFO  rt            0.56     
+04/10/14 18:32:25 sendreport.py(113): INFO  succuess pv   706040   
+04/10/14 18:32:25 sendreport.py(113): INFO  failed pv     7213     
+04/10/14 18:32:25 sendreport.py(113): INFO  ================================
+04/10/14 18:32:25 sendreport.py(113): INFO  Title: 峰值QPS
+04/10/14 18:32:25 sendreport.py(113): INFO  ----------------
+04/10/14 18:32:25 sendreport.py(113): INFO  Description: 按时、分、秒关注峰值QPS，注：小时的峰值按照3600秒求平均，不考虑中途停止服务情况
+04/10/14 18:32:25 sendreport.py(113): INFO  目标                          数量                       
+04/10/14 18:32:25 sendreport.py(113): INFO  小时峰值发生时间, QPS   2014-04-09 20时, 353.00     
+04/10/14 18:32:25 sendreport.py(113): INFO  分钟峰值发生时间, QPS   2014-04-09 20:21分, 372.40  
+04/10/14 18:32:25 sendreport.py(113): INFO  秒级峰值发生时间, QPS   2014-04-09 11:32:33, 722.00  
+04/10/14 18:32:25 sendreport.py(113): INFO  ================================
+04/10/14 18:32:25 sendreport.py(113): INFO  Title: 备忘录
+04/10/14 18:32:25 sendreport.py(113): INFO  ----------------
+04/10/14 18:32:25 sendreport.py(113): INFO  Description: 关于该报告的说明
+04/10/14 18:32:25 sendreport.py(113): INFO  选项         说明                                                                                                                                 
+04/10/14 18:32:25 sendreport.py(113): INFO  联系人      萧亮(xiaoliang.zxl@taobao.com)                                                                                                       
+04/10/14 18:32:25 sendreport.py(113): INFO  数据来源   Loki Profile日志，收集到云梯后，通过Hadoop计算得出;云梯路径: /group/tb-taoke-engine/logdata/aitaobao-profile/loki  
+04/10/14 18:32:25 sendreport.py(113): INFO  其他         有任何疑问可以与上述联系人联系，请勿直接回复本邮件                                                            
+04/10/14 18:32:25 sendreport.py(113): INFO  ================================
+04/10/14 18:32:25 sendreport.py(127): INFO  send mail to xiaoliang.zxl@taobao.com
+04/10/14 18:32:25 sendreport.py(256): INFO  done
+04/11/14 09:07:04 sendreport.py(250): INFO  send report from input data file: /home/xiaoliang.zxl/loki_profile/output/20140410/part-00000
+04/11/14 09:07:05 sendreport.py(110): INFO  show report as follow
+04/11/14 09:07:05 sendreport.py(113): INFO  Loki运行状态报告-2014-04-10
+04/11/14 09:07:05 sendreport.py(113): INFO  ================================
+04/11/14 09:07:05 sendreport.py(113): INFO  Title: 概述
+04/11/14 09:07:05 sendreport.py(113): INFO  -------------
+04/11/14 09:07:05 sendreport.py(113): INFO  Description: 
+04/11/14 09:07:05 sendreport.py(113): INFO  目标                数量      
+04/11/14 09:07:05 sendreport.py(113): INFO  有效pv              16,748,507  
+04/11/14 09:07:05 sendreport.py(113): INFO  平均qps(24小时)   193.85      
+04/11/14 09:07:05 sendreport.py(113): INFO  平均qps(5w秒)      334.97      
+04/11/14 09:07:05 sendreport.py(113): INFO  平均rt              0.72 ms     
+04/11/14 09:07:05 sendreport.py(113): INFO  ================================
+04/11/14 09:07:05 sendreport.py(113): INFO  Title: 运行时间
+04/11/14 09:07:05 sendreport.py(113): INFO  -------------------
+04/11/14 09:07:05 sendreport.py(113): INFO  Description: 系统平均RT性能数据分布
+04/11/14 09:07:05 sendreport.py(113): INFO  目标   数量(ms)   比例
+04/11/14 09:07:05 sendreport.py(113): INFO  match    0.56         78.55%
+04/11/14 09:07:05 sendreport.py(113): INFO  rank     0.15         21.45%
+04/11/14 09:07:05 sendreport.py(113): INFO  other    0.0          0.0%
+04/11/14 09:07:05 sendreport.py(113): INFO  --------------------------
+04/11/14 09:07:05 sendreport.py(113): INFO  total    0.72         100%
+04/11/14 09:07:05 sendreport.py(113): INFO  ================================
+04/11/14 09:07:05 sendreport.py(113): INFO  Title: Match时间
+04/11/14 09:07:05 sendreport.py(113): INFO  ------------------
+04/11/14 09:07:05 sendreport.py(113): INFO  Description: Matching过程时间消耗明细
+04/11/14 09:07:05 sendreport.py(113): INFO  目标     数量(ms)   比例
+04/11/14 09:07:05 sendreport.py(113): INFO  match_rt   0.56         100%
+04/11/14 09:07:05 sendreport.py(113): INFO  ----------------------------
+04/11/14 09:07:05 sendreport.py(113): INFO  total      0.56         100%
+04/11/14 09:07:05 sendreport.py(113): INFO  ================================
+04/11/14 09:07:05 sendreport.py(113): INFO  Title: 清单
+04/11/14 09:07:05 sendreport.py(113): INFO  -------------
+04/11/14 09:07:05 sendreport.py(113): INFO  Description: 清单
+04/11/14 09:07:05 sendreport.py(113): INFO  目标        数量      
+04/11/14 09:07:05 sendreport.py(113): INFO  pv            13,617,364  
+04/11/14 09:07:05 sendreport.py(113): INFO  match_rt      0.57        
+04/11/14 09:07:05 sendreport.py(113): INFO  rank_rt       0.15        
+04/11/14 09:07:05 sendreport.py(113): INFO  rt            0.7         
+04/11/14 09:07:05 sendreport.py(113): INFO  succuess pv   13516610    
+04/11/14 09:07:05 sendreport.py(113): INFO  failed pv     0           
+04/11/14 09:07:05 sendreport.py(113): INFO  ================================
+04/11/14 09:07:05 sendreport.py(113): INFO  Title: 专辑
+04/11/14 09:07:05 sendreport.py(113): INFO  -------------
+04/11/14 09:07:05 sendreport.py(113): INFO  Description: 专辑
+04/11/14 09:07:05 sendreport.py(113): INFO  目标        数量     
+04/11/14 09:07:05 sendreport.py(113): INFO  pv            1,224,327  
+04/11/14 09:07:05 sendreport.py(113): INFO  match_rt      0.94       
+04/11/14 09:07:05 sendreport.py(113): INFO  rank_rt       0.23       
+04/11/14 09:07:05 sendreport.py(113): INFO  rt            1.16       
+04/11/14 09:07:05 sendreport.py(113): INFO  succuess pv   1209921    
+04/11/14 09:07:05 sendreport.py(113): INFO  failed pv     0          
+04/11/14 09:07:05 sendreport.py(113): INFO  ================================
+04/11/14 09:07:05 sendreport.py(113): INFO  Title: 搭配
+04/11/14 09:07:05 sendreport.py(113): INFO  -------------
+04/11/14 09:07:05 sendreport.py(113): INFO  Description: 搭配
+04/11/14 09:07:05 sendreport.py(113): INFO  目标        数量   
+04/11/14 09:07:05 sendreport.py(113): INFO  pv            733,146  
+04/11/14 09:07:05 sendreport.py(113): INFO  match_rt      0.51     
+04/11/14 09:07:05 sendreport.py(113): INFO  rank_rt       0.12     
+04/11/14 09:07:05 sendreport.py(113): INFO  rt            0.61     
+04/11/14 09:07:05 sendreport.py(113): INFO  succuess pv   722985   
+04/11/14 09:07:05 sendreport.py(113): INFO  failed pv     0        
+04/11/14 09:07:05 sendreport.py(113): INFO  ================================
+04/11/14 09:07:05 sendreport.py(113): INFO  Title: 峰值QPS
+04/11/14 09:07:05 sendreport.py(113): INFO  ----------------
+04/11/14 09:07:05 sendreport.py(113): INFO  Description: 按时、分、秒关注峰值QPS，注：小时的峰值按照3600秒求平均，不考虑中途停止服务情况
+04/11/14 09:07:05 sendreport.py(113): INFO  目标                          数量                       
+04/11/14 09:07:05 sendreport.py(113): INFO  小时峰值发生时间, QPS   2014-04-10 20时, 359.69     
+04/11/14 09:07:05 sendreport.py(113): INFO  分钟峰值发生时间, QPS   2014-04-10 20:34分, 378.40  
+04/11/14 09:07:05 sendreport.py(113): INFO  秒级峰值发生时间, QPS   2014-04-10 11:55:09, 676.00  
+04/11/14 09:07:05 sendreport.py(113): INFO  ================================
+04/11/14 09:07:05 sendreport.py(113): INFO  Title: 备忘录
+04/11/14 09:07:05 sendreport.py(113): INFO  ----------------
+04/11/14 09:07:05 sendreport.py(113): INFO  Description: 关于该报告的说明
+04/11/14 09:07:05 sendreport.py(113): INFO  选项         说明                                                                                                                                 
+04/11/14 09:07:05 sendreport.py(113): INFO  联系人      萧亮(xiaoliang.zxl@taobao.com)                                                                                                       
+04/11/14 09:07:05 sendreport.py(113): INFO  数据来源   Loki Profile日志，收集到云梯后，通过Hadoop计算得出;云梯路径: /group/tb-taoke-engine/logdata/aitaobao-profile/loki  
+04/11/14 09:07:05 sendreport.py(113): INFO  其他         有任何疑问可以与上述联系人联系，请勿直接回复本邮件                                                            
+04/11/14 09:07:05 sendreport.py(113): INFO  ================================
+04/11/14 09:07:05 sendreport.py(127): INFO  send mail to taobao-ad-tech-taoke-engine@list.alibaba-inc.com
+04/11/14 09:07:05 sendreport.py(256): INFO  done
